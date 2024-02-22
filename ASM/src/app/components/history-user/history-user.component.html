@@ -1,0 +1,84 @@
+<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+
+  <h1 class="text-center text-[30px] mb-2">Lịch sử đơn hàng</h1>
+  <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+    <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+      <tr>
+        <th scope="col" class="px-3 py-3">
+          Mã sản phẩm
+        </th>
+        <th scope="col" class="px-3 py-3">
+          Tên khách hàng
+        </th>
+        <th scope="col" class="px-3 py-3">
+          Tên sản phẩm
+        </th>
+        <th scope="col" class="px-3 py-3">
+          Địa chỉ
+        </th>
+        <th scope="col" class="px-3 py-3">
+          Thời gian mua
+        </th>
+        <th scope="col" class="px-3 py-3">
+          Trạng thái
+        </th>
+        <th scope="col" class="px-3 py-3">
+          Số lượng
+        </th>
+        <th scope="col" class="px-3 py-3">
+          Giá
+        </th>
+        <th scope="col" class="px-3 py-3">
+          Tổng tiền
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+        *ngFor="let order of orderItems; let i = index">
+        <th scope="row" class="px-3 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+          {{ order.id }}
+        </th>
+        <td class="px-3 py-2">
+          {{ order.customer_name }}
+        </td>
+        <td class="px-3 py-2 ">
+          <div class="flex flex-row gap-2 py-2" *ngFor="let product of order.products">
+            <img class="w-[30px] " src="{{ product.image }}" alt="">
+            <h4>{{ product.productName }}</h4>
+          </div>
+        </td>
+        <td class="px-3 py-2 ">
+
+          {{order.customer_address}}
+        </td>
+        <td class="px-3 py-2 ">
+
+          {{order.createdAt}}
+        </td>
+        <td class="px-3 py-2">
+          <span class="text-red-500"> {{ order.status }}</span>
+        </td>
+        <td class="px-3 py-2">
+          <div class="flex py-2 justify-center items-center" *ngFor="let product of order.products">
+            <span>{{product.quantity }}</span>
+          </div>
+        </td>
+        <td class="px-3 py-2 ">
+          <div class="flex flex-col py-2" *ngFor="let product of order.products">
+            <span>
+              {{ +product.price }} VNĐ
+            </span>
+          </div>
+
+        </td>
+        <td class="px-3 py-2">
+          {{ calculateOrderTotal(order) }} VNĐ
+        </td>
+
+      </tr>
+
+
+    </tbody>
+  </table>
+</div>

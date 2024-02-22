@@ -1,0 +1,83 @@
+<div class="flex justify-center  mt-[35px] gap-[100px] mb-[60px]">
+    <div class="bg-[#F9F1E7] rounded-[10px] max-w-[423px] h-[500px] flex items-center">
+        <img src="{{product?.image}}" alt="" class="w-full">
+    </div>
+    <div class="w-[35%]">
+        <h1 class="text-[#000] font-normal text-[42px]">{{product?.productName}}</h1>
+        <p class="text-[#9f9f9f] font-medium text-[25px]">{{product?.brandName}}</p>
+        <!-- <p class="flex items-center mt-1 mb-[18px]">
+            <span><img src="assets/image/dashicons_star-filled.svg" alt=""></span>
+            <span><img src="assets/image/dashicons_star-filled.svg" alt=""></span>
+            <span><img src="assets/image/dashicons_star-filled.svg" alt=""></span>
+            <span><img src="assets/image/dashicons_star-filled.svg" alt=""></span>
+            <span class="border-r-2 border-[#9F9F9F] pr-[20px]"><img src="assets/image/carbon_star-half.svg"
+                    alt=""></span>
+            <span class="pl-[22px] text-[#9f9f9f] font-normal text-[13px] w-full">5 Customer
+                Review</span>
+        </p> -->
+        <p class="w-[80%] text-[#000] font-normal text-[13px]">{{product?.description}}
+        </p>
+        <div class="mt-[18px]">
+            <span class="text-[#9f9f9f] font-normal text-[14px] ">Size</span>
+        </div>
+        <div class="flex mt-[12px] gap-[16px]">
+            <div class="bg-[#B88E2F] rounded-md px-3 py-1">
+                <button class="text-[#fff]">L</button>
+            </div>
+            <div class="bg-[#F9F1E7] rounded-md px-2 py-1">
+                <button class="text-[#000]">XL</button>
+            </div>
+            <div class="bg-[#F9F1E7] rounded-md px-2 py-1">
+                <button class="text-[#000]">XS</button>
+            </div>
+        </div>
+        <div class="mt-[18px] mb-3">
+            <span class="text-[#9f9f9f] font-normal text-[14px] ">Color</span>
+        </div>
+        <div class="flex gap-4">
+            <a href="">
+                <p class="rounded-[50%] bg-[#816DFA] w-8 h-8"></p>
+            </a>
+            <a href="">
+                <p class="rounded-[50%] bg-[#000] w-8 h-8"></p>
+            </a>
+            <a href="">
+                <p class="rounded-[50%] bg-[#B88E2F] w-8 h-8"></p>
+            </a>
+
+        </div>
+        <div class="flex mt-8 mb-[59px] gap-[18px]">
+            <button class="flex border-2 border-[#9F9F9F] rounded-[10px] bg-[#fff] gap-[35px] px-4 py-3">
+                <a href=""><span>-</span></a>
+                <a href=""><span>1</span></a>
+                <a href=""><span>+</span></a>
+            </button>
+            <button class="border-2 border-[#9f9f9f] rounded-[10px] bg-[#fff] px-7" type="button"
+                (click)="addToCart(product)">Add To Cart</button>
+
+        </div>
+        <hr class="border-1 border-[#d9d9d9] mb-[40px]">
+        <div class="flex ">
+            <div class="flex flex-col">
+                <span class="text-[16px] text-[#9F9F9F] font-normal my-[6px]">SKU</span>
+                <span class="text-[16px] text-[#9F9F9F] font-normal my-[6px]">Category</span>
+                <span class="text-[16px] text-[#9F9F9F] font-normal my-[6px]">Tags</span>
+                <span class="text-[16px] text-[#9F9F9F] font-normal my-[6px]">Share</span>
+            </div>
+            <div class="flex flex-col pl-4 pr-3">
+                <span class="text-[16px] text-[#9F9F9F] font-normal my-[6px]">:</span>
+                <span class="text-[16px] text-[#9F9F9F] font-normal my-[6px]">:</span>
+                <span class="text-[16px] text-[#9F9F9F] font-normal my-[6px]">:</span>
+                <span class="text-[16px] text-[#9F9F9F] font-normal my-[6px]">:</span>
+            </div>
+            <div class="flex flex-col ">
+                <span class="text-[16px] text-[#9F9F9F] font-normal my-[6px]"> SS001</span>
+                <span class="text-[16px] text-[#9F9F9F] font-normal my-[6px]"> Sofas</span>
+                <span class="text-[16px] text-[#9F9F9F] font-normal my-[6px]"> Sofa, Chair,
+                    Home,Shop</span>
+            
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>

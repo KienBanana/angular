@@ -1,0 +1,727 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "productName": "Sofa và ghế dài",
+      "price": "899000",
+      "views": 13,
+      "hot": 0,
+      "brandName": "Nội thất Hòa Bình",
+      "image": "https://sofaxuyena.com.vn/wp-content/uploads/2022/02/Ghe-sofa-dai-XAB104.jpg",
+      "date": "2024-04-02",
+      "categoryId": 4,
+      "description": "Mô tả về sofa chất liệu được làm từ da thật. Sofa và ghế dài thiết kế đơn giản nhưng hiện đại, phù hợp cho không gian văn phòng và làm việc tại nhà."
+    },
+    {
+      "id": 4,
+      "productName": "Đèn bàn vintage",
+      "price": "1599000",
+      "views": 28,
+      "hot": 1,
+      "brandName": "Rétro Chic",
+      "image": "https://violighting.com.vn/dentrangtri/uploads/2021/11/den-ban-hinh-cay-nam-den-db-634.jpg",
+      "date": "2024-04-18",
+      "categoryId": 2,
+      "description": "Mô tả cho Đèn bàn vintage. Đèn bàn mang phong cách cổ điển với thiết kế vintage, tạo nên sự độc đáo và ấn tượng cho không gian làm việc hoặc phòng ngủ của bạn."
+    },
+    {
+      "productName": "Phụ kiện thang trượt",
+      "brandName": "Nội thất Minh Long",
+      "price": "899000",
+      "description": "Được làm từ hợp kim nhôm, thép không gỉ mang lại cảm giác an toàn và bền bỉ theo thời gian và trường tồn theo năm tháng. Giá thành phù hợp với mọi hộ gia đình.",
+      "image": "https://flexhouse.vn/wp-content/uploads/2023/11/Phu-kien-thang-truot-barn-door-hop-kim-nhom-SH7306-1.jpg",
+      "categoryId": 5,
+      "views": 12,
+      "hot": 0,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "productName": "Đèn trang trí LED",
+      "price": "1299000",
+      "views": 25,
+      "hot": 0,
+      "brandName": "Ánh sáng Sáng tạo",
+      "image": "https://quatviet.net/wp-content/uploads/2019/10/mls1701-6-plus-2.jpg",
+      "date": "2024-04-08",
+      "categoryId": 2,
+      "description": "Mô tả cho Đèn trang trí LED. Đèn trang trí hiện đại với công nghệ LED tiên tiến, tạo điểm nhấn ấn tượng cho không gian nội thất của bạn. Thiết kế đẹp mắt, ánh sáng mềm mại."
+    },
+    {
+      "productName": "Đèn trang trí LED123123",
+      "brandName": "Ánh sáng Sáng tạo",
+      "price": "1299000",
+      "description": "Mô tả cho Đèn trang trí LED. Đèn trang trí hiện đại với công nghệ LED tiên tiến, tạo điểm nhấn ấn tượng cho không gian nội thất của bạn. Thiết kế đẹp mắt, ánh sáng mềm mại.",
+      "image": "https://mvm.vn/wp-content/uploads/2019/10/Den-trang-tri-TT26.gif",
+      "categoryId": 2,
+      "views": 25,
+      "hot": 0,
+      "id": 7
+    },
+    {
+      "id": 8,
+      "productName": "Đèn treo phòng khách",
+      "price": "1799000",
+      "views": 30,
+      "hot": 0,
+      "brandName": "Nghệ thuật Ánh sáng",
+      "image": "https://mvm.vn/wp-content/uploads/2019/10/Den-trang-tri-TT6-v.gif",
+      "date": "2024-04-12",
+      "categoryId": 2,
+      "description": "Mô tả cho Đèn treo phòng khách. Đèn treo sang trọng với kiểu dáng độc đáo, tạo điểm nhấn nghệ thuật cho phòng khách của bạn. Ánh sáng ấm áp, tạo không khí thoải mái và ấm cúng."
+    },
+    {
+      "id": 9,
+      "productName": "Đèn trần thông minh",
+      "price": "2399000",
+      "views": 35,
+      "hot": 0,
+      "brandName": "Sáng Tạo Đương Đại",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0irRTbAS81EaLk3KGscr6fObMHQ-TMRjBL-9Tr8eSDOr0ZYEgrhjCDDgYb9zf1XQB-EI&usqp=CAU",
+      "date": "2024-04-15",
+      "categoryId": 2,
+      "description": "Mô tả cho Đèn trần thông minh. Đèn trần hiện đại tích hợp công nghệ thông minh, có thể điều chỉnh độ sáng, màu sắc theo ý muốn. Thiết kế đẹp mắt, phù hợp cho mọi không gian nội thất."
+    },
+    {
+      "id": 10,
+      "name": "Updated Name"
+    },
+    {
+      "id": 10,
+      "productName": "Tranh phong mã",
+      "price": "8299000",
+      "views": 13,
+      "hot": 0,
+      "brandName": "Tranh Kiên",
+      "image": "https://walldeco.vn/wp-content/uploads/2021/08/SNO-24513.jpg",
+      "date": "2024-04-05",
+      "categoryId": 5,
+      "description": "Tranh là một loại hình nghệ thuật tạo hình, sử dụng màu vẽ, sắc tố, màu sắc hoặc chất liệu khác để tạo ra những hình ảnh, họa tiết trên một bề mặt rắn."
+    },
+    {
+      "id": 11,
+      "productName": "Bàn làm việc gỗ cao cấp",
+      "price": "4990000",
+      "views": 35,
+      "hot": 0,
+      "brandName": "Nội Thất Minh Long",
+      "image": "https://product.hstatic.net/200000539781/product/2-min_9f6a75a7be334985a8e3601842ebc808.png",
+      "date": "2024-04-05",
+      "categoryId": 1,
+      "description": "Mô tả cho Bàn làm việc gỗ cao cấp. Bàn làm việc từ gỗ cao cấp, kiểu dáng sang trọng và hiện đại. Bề mặt chống trầy, dễ lau chùi."
+    },
+    {
+      "id": 12,
+      "productName": "Bàn trang điểm đa năng",
+      "price": "2200000",
+      "views": 20,
+      "hot": 1,
+      "brandName": "Sài Gòn Furniture",
+      "image": "https://product.hstatic.net/200000065946/product/pro_mau_tu_nhien_noi_that_moho_combo_ban_va_guong_trang_diem_2_951e4eb74080461aa947ab14bf1a344c_master.jpg",
+      "date": "2024-04-10",
+      "category": {
+        "categoryId": 1,
+        "categoryName": "den"
+      },
+      "description": "Mô tả cho Bàn trang điểm đa năng. Bàn trang điểm với nhiều ngăn đựng tiện ích, gương tích hợp. Thiết kế nhỏ gọn, phù hợp cho phòng ngủ hoặc phòng tắm."
+    },
+    {
+      "id": 13,
+      "productName": "Bàn ăn gia đình hiện đại",
+      "price": "6500000",
+      "views": 55,
+      "hot": 0,
+      "brandName": "Nội Thất Đức Việt",
+      "image": "https://kika.vn/wp-content/uploads/2023/03/ban-an-BA208.jpg",
+      "date": "2024-04-15",
+      "categoryId": 1,
+      "description": "Mô tả cho Bàn ăn gia đình hiện đại. Bàn ăn với kiểu dáng hiện đại, chất liệu bền bỉ. Phục vụ tốt cho các bữa ăn gia đình, không gian ấm cúng."
+    },
+    {
+      "id": 14,
+      "productName": "Bàn laptop gập gọn",
+      "price": "1200000",
+      "views": 30,
+      "hot": 0,
+      "brandName": "IKEA",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTPrKCN_DwZk3Tp7N-pwDCI5796xlrJgGZcwi8Q5iNVgLDobt1udTkAZXdF7S-RACLKCkjZc92OdyAlBzmdbhDrcpHqqbXmcSkKftlxPz8e&usqp=CAE",
+      "date": "2024-04-20",
+      "categoryId": 1,
+      "description": "Mô tả cho Bàn laptop gập gọn. Thiết kế nhỏ gọn, tiện lợi cho việc sử dụng laptop. Chất liệu chống nước, dễ lau chùi."
+    },
+    {
+      "id": 15,
+      "productName": "Bàn phòng khách hiện đại",
+      "price": "3800000",
+      "views": 40,
+      "hot": 0,
+      "brandName": "Casabella",
+      "image": "https://noithatm8.com/wp-content/uploads/20181030101438ban-tra-dep-hien-dai-1.jpg",
+      "date": "2024-04-25",
+      "categoryId": 1,
+      "description": "Mô tả cho Bàn phòng khách hiện đại. Bàn phòng khách với kiểu dáng hiện đại, phối màu tinh tế. Chất liệu chống trầy, dễ lau chùi."
+    },
+    {
+      "id": 16,
+      "productName": "Bàn trà trang trí vintage",
+      "price": "2800000",
+      "views": 25,
+      "hot": 0,
+      "brandName": "Vintage Home",
+      "image": "https://bizweb.dktcdn.net/100/421/233/products/z2290520242117-9ac62a105903ceb6af2b8a5eb0d552fc.jpg?v=1660362078370",
+      "date": "2024-04-30",
+      "categoryId": 1,
+      "description": "Mô tả cho Bàn trà trang trí vintage. Bàn trà với thiết kế cổ điển, phong cách vintage. Chất liệu chống trầy, dễ lau chùi."
+    },
+    {
+      "id": 17,
+      "productName": "Gối trang trí họa tiết hoa",
+      "price": "123",
+      "views": 25,
+      "hot": 0,
+      "brandName": "Home Decor Co.",
+      "image": "https://flexhouse.vn/wp-content/uploads/2023/03/Vo-goi-tua-trang-tri-hoa-tiet-hoat-hinh-PCH3352-7.jpg",
+      "date": "2024-05-05",
+      "categoryId": 3,
+      "description": "Mô tả cho Gối trang trí họa tiết hoa. Gối trang trí với họa tiết hoa văn tinh tế, chất liệu êm ái. Thêm phần sinh động cho không gian nghỉ ngơi của bạn."
+    },
+    {
+      "id": 18,
+      "productName": "Gối trang trí hoa lá độc đáo",
+      "price": "111",
+      "views": 30,
+      "hot": 1,
+      "brandName": "Elegance Home",
+      "image": "https://gotrangtri.vn/wp-content/uploads/2017/12/chon-goi-trang-tri-voi-hoa-tiet-hop-phong-thuy-1.jpg",
+      "date": "2024-06-10",
+      "categoryId": 3,
+      "description": "Mô tả cho Gối trang trí hoa lá độc đáo. Gối với họa tiết hoa lá tinh tế, sáng tạo, tạo điểm nhấn độc đáo cho không gian sống của bạn."
+    },
+    {
+      "id": 19,
+      "productName": "Gối trang trí phối màu hòa quyện",
+      "price": "100",
+      "views": 20,
+      "hot": 0,
+      "brandName": "Colorful Living",
+      "image": "https://meon.vn/cache/800x800x2/upload/watermark/combo-5-goi-trang-tri-sofa-hoa-tiet-hoa-van-hy-tho-cam-gttsf0026-1.jpg",
+      "date": "2024-07-15",
+      "categoryId": 3,
+      "description": "Mô tả cho Gối trang trí phối màu hòa quyện. Gối với sự phối hợp màu sắc tinh tế, tạo nên không gian ấm cúng và sang trọng cho phòng khách của bạn."
+    },
+    {
+      "id": 20,
+      "productName": "Gối trang trí họa tiết nghệ thuật",
+      "price": "480000",
+      "views": 45,
+      "hot": 1,
+      "brandName": "Artistic Decor",
+      "image": "https://www.lamaisonchouette.com/wp-content/uploads/2022/01/CUSH45%E2%80%93LIN-RED_B.jpeg",
+      "date": "2024-08-20",
+      "categoryId": 3,
+      "description": "Mô tả cho Gối trang trí họa tiết nghệ thuật. Gối với họa tiết nghệ thuật độc đáo, làm nổi bật gu thẩm mỹ và cá tính của không gian sống."
+    },
+    {
+      "id": 21,
+      "productName": "Gối trang trí họa tiết vintage",
+      "price": "30",
+      "views": 18,
+      "hot": 0,
+      "brandName": "Vintage Vibes",
+      "image": "https://lh3.googleusercontent.com/9JfJVV2etXFp4rl-Mhpul7ehBm5EoO_NzHDWCe2XHCwTAsVn8cUA-1keYq6aH4NNlxveVhqeIzpESY3I06z1nA5I9fWm4aIw4O7wsf34aPnyO_sp5_Kw_0iD_a5hNfaSIdEGdhCVJRSs8sakQg",
+      "date": "2024-09-25",
+      "categoryId": 3,
+      "description": "Mô tả cho Gối trang trí họa tiết vintage. Gối với họa tiết mang đậm chất cổ điển, tạo nên không khí ấm áp và gần gũi với quá khứ."
+    },
+    {
+      "id": 22,
+      "productName": "Đèn sàn đứng trang trí",
+      "price": "1999000",
+      "views": 32,
+      "hot": 0,
+      "brandName": "Phong Cách Hiện Đại",
+      "image": "https://flexhouse.vn/wp-content/uploads/2021/12/Screenshot_2-7.jpg",
+      "date": "2024-04-20",
+      "categoryId": 2,
+      "description": "Mô tả cho Đèn sàn đứng trang trí. Đèn sàn hiện đại với kiểu dáng độc đáo, làm điểm nhấn nghệ thuật cho không gian phòng khách hoặc phòng làm việc. Ánh sáng tinh tế và ấm áp."
+    },
+    {
+      "id": 23,
+      "productName": "Đèn sàn trang trí cửa",
+      "price": "129900",
+      "views": 20,
+      "hot": 0,
+      "brandName": "Ánh Sáng Vui Nhộn",
+      "image": "https://dentrangtriviet.com.vn/wp-content/uploads/2022/08/den-led-dung-san-phong-ngu-phong-khach-hien-dai-chieu-roi-co-ban-go-trang-tri-cao-165m-dtt-dc14-1.jpg",
+      "date": "2024-04-22",
+      "categoryId": 2,
+      "description": "Mô tả cho Đèn trang trí dây LED. Dây đèn LED linh hoạt, tạo nên không gian sáng tạo và vui nhộn. Thích hợp cho việc trang trí phòng trẻ em, tiệc tùng hoặc sự kiện đặc biệt."
+    },
+    {
+      "id": 24,
+      "productName": "Ghế văn phòng Ergonomic",
+      "price": "1299000",
+      "views": 18,
+      "hot": 1,
+      "brandName": "Ergo Comfort",
+      "image": "https://sg-live-01.slatic.net/p/0657210566aaa16fe046096f74899f61.jpg_525x525q80.jpg",
+      "date": "2024-04-25",
+      "categoryId": 4,
+      "description": "Mô tả về Ghế văn phòng Ergonomic. Ghế văn phòng chất lượng cao, thiết kế Ergonomic giúp hỗ trợ đội ngũ làm việc của bạn với sự thoải mái và linh hoạt."
+    },
+    {
+      "id": 25,
+      "productName": "Sofa góc phòng khách",
+      "price": "2199000",
+      "views": 22,
+      "hot": 0,
+      "brandName": "Phòng Khách Đẹp",
+      "image": "https://bearsofa.com/wp-content/uploads/mau-ghe-sofa-goc-L-phong-khach-dep-BearSofa-Mau-01-800x800.jpg.webp",
+      "date": "2024-04-28",
+      "categoryId": 4,
+      "description": "Mô tả về Sofa góc phòng khách. Sofa góc hiện đại với chất liệu bền đẹp, tạo nên không gian thoải mái và sang trọng cho phòng khách của bạn."
+    },
+    {
+      "id": 27,
+      "name": "Updated Name"
+    },
+    {
+      "id": 28,
+      "productName": "Sofa chaise longue",
+      "price": "2599000",
+      "views": 25,
+      "hot": 1,
+      "brandName": "ChillZone",
+      "image": "https://cdn.banak.com/v6/Arti/SEK-0005G-2.jpg",
+      "date": "2024-05-08",
+      "categoryId": 4,
+      "description": "Mô tả về Sofa chaise longue. Sofa với thiết kế chaise longue, mang lại sự thoải mái và lưu loát cho không gian giải trí trong phòng khách hoặc phòng gia đình."
+    },
+    {
+      "id": 29,
+      "productName": "Ghế văn phòng phong cách",
+      "price": "1099000",
+      "views": 18,
+      "hot": 0,
+      "brandName": "StylishOffice",
+      "image": "https://vn-test-11.slatic.net/p/660e7ee854c8a01a2bc9ac270fd92ecf.png_800x800Q100.jpg",
+      "date": "2024-05-10",
+      "categoryId": 4,
+      "description": "Mô tả về Ghế văn phòng phong cách. Ghế văn phòng với phong cách hiện đại, phù hợp cho không gian làm việc tại văn phòng hoặc tại nhà với sự thoải mái."
+    },
+    {
+      "id": 30,
+      "productName": "Kệ sách đa năng",
+      "price": "1499000",
+      "views": 18,
+      "hot": 1,
+      "brandName": "SmartStorage",
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/431/426/products/ke-sach-chu-u-lon-1.jpg?v=1661937546160",
+      "date": "2024-05-18",
+      "categoryId": 5,
+      "description": "Mô tả về Kệ sách đa năng. Kệ sách thiết kế đa năng với nhiều ngăn, giúp bạn tổ chức và trang trí không gian phòng khách hoặc phòng làm việc."
+    },
+    {
+      "id": 31,
+      "name": "Updated Name"
+    },
+    {
+      "id": 32,
+      "productName": "Bát đĩa gốm sứ",
+      "price": "499000",
+      "views": 25,
+      "hot": 1,
+      "brandName": "ArtisanPottery",
+      "image": "https://gomtruongan.vn/uploads/products/20102020084137/bo-bat-dia-bat-trang-ve-nhuy-sen-bdns88-2_20102020084148.jpg",
+      "date": "2024-05-22",
+      "categoryId": 5,
+      "description": "Mô tả về Bát đĩa gốm sứ. Bộ bát đĩa chất lượng cao được làm từ gốm sứ, tạo điểm nhấn nghệ thuật cho bữa ăn gia đình hoặc sự kiện đặc biệt."
+    },
+    {
+      "id": 35,
+      "productName": "Bình nước thủy tinh",
+      "price": "199000",
+      "views": 20,
+      "hot": 1,
+      "brandName": "GlassCraft",
+      "image": "https://bepxanh.com/Uploads/kilner-binh-nuoc-thuy-tinh-vintage-8l.jpg",
+      "date": "2024-05-25",
+      "categoryId": 5,
+      "description": "Mô tả về Bình nước thủy tinh. Bình nước đẹp và chất lượng, làm từ thủy tinh trong suốt, làm tôn lên vẻ đẹp của nước uống."
+    },
+    {
+      "id": 36,
+      "productName": "Dụng cụ nấu ăn chuyên nghiệp",
+      "price": "2799000",
+      "views": 18,
+      "hot": 1,
+      "brandName": "ChefEssentials",
+      "image": "https://vinmec-prod.s3.amazonaws.com/images/20210312_051126_371146_thanh-phan-chong-dinh.max-800x800.jpg",
+      "date": "2024-05-28",
+      "categoryId": 5,
+      "description": "Mô tả về Dụng cụ nấu ăn chuyên nghiệp. Bộ dụng cụ nấu ăn chất lượng cao, giúp bạn trở thành đầu bếp chuyên nghiệp ngay tại nhà."
+    },
+    {
+      "id": 37,
+      "productName": "Kệ đựng gia vị thông minh",
+      "price": "1299000",
+      "views": 15,
+      "hot": 0,
+      "brandName": "SpiceSmart",
+      "image": "https://garis.vn/wp-content/uploads/2021/10/ke-gia-vi-goc-tuong.jpeg",
+      "date": "2024-06-02",
+      "categoryId": 5,
+      "description": "Mô tả về Kệ đựng gia vị thông minh. Kệ đựng gia vị với thiết kế thông minh, giúp bạn dễ dàng truy cập và tổ chức gia vị khi nấu ăn."
+    },
+    {
+      "productName": "123123",
+      "brandName": "123123",
+      "price": "0123123",
+      "description": "123123",
+      "image": "123123",
+      "categoryId": 1,
+      "id": 39
+    },
+    {
+      "productName": "Rèm cửa siêu đẹp",
+      "brandName": "Hòa Kiên",
+      "price": "1231233",
+      "description": "Hàng rất chất lượng",
+      "image": "https://garis.vn/wp-content/uploads/2021/10/ke-gia-vi-goc-tuong.jpeg",
+      "categoryId": 1,
+      "views": "111",
+      "hot": 1,
+      "id": 40
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Bàn",
+      "productCount": 50
+    },
+    {
+      "id": 2,
+      "categoryName": "Đèn trang trí",
+      "productCount": 75
+    },
+    {
+      "id": 3,
+      "categoryName": "Gối",
+      "productCount": 30
+    },
+    {
+      "id": 4,
+      "categoryName": "Sofa và Ghế",
+      "productCount": 120
+    },
+    {
+      "id": 5,
+      "categoryName": "Dụng cụ và Phụ kiện",
+      "productCount": 45
+    }
+  ],
+  "cart": [],
+  "cartDetails": [
+    {
+      "cart": "[]",
+      "id": 1
+    },
+    {
+      "cart": "[]",
+      "id": 2
+    },
+    {
+      "cart": "[]",
+      "id": 3
+    },
+    {
+      "cart": "[]",
+      "id": 4
+    }
+  ],
+  "signup": [
+    {
+      "fname": "Manoj",
+      "lname": "Adhikari",
+      "email": "manojadhikari@gmail.com",
+      "phone": "234324234",
+      "password": "asdasdf",
+      "id": 1
+    },
+    {
+      "fname": "shivam",
+      "lname": "adhikari",
+      "email": "shivamadhikari@gmail.com",
+      "phone": "32432",
+      "password": "asdf",
+      "id": 2
+    },
+    {
+      "fullName": "Kein23123",
+      "email": "trungkien@gmail.com",
+      "password": "123123",
+      "id": 5
+    },
+    {
+      "fullName": "asd",
+      "email": "Trungkien12@gmail.com",
+      "password": "123123",
+      "id": 6
+    },
+    {
+      "fullName": "asd123",
+      "email": "Trungkien123@gmail.com",
+      "password": "123123",
+      "id": 7
+    },
+    {
+      "fullName": "asd",
+      "email": "Trungkien12@gmail.com",
+      "password": "123123",
+      "id": 8
+    }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "123123",
+      "fullName": "Admin",
+      "role": 1
+    },
+    {
+      "email": "213123",
+      "password": "123123",
+      "id": 2
+    },
+    {
+      "email": "Trungkien12@gmail.com",
+      "password": "123123",
+      "id": 3
+    },
+    {
+      "email": "Trungkien123@gmail.com",
+      "password": "123123",
+      "id": 4
+    },
+    {
+      "email": "Trungkien112@gmail.com",
+      "password": "123123",
+      "id": 6
+    },
+    {
+      "email": "123123",
+      "password": "123123",
+      "fullName": "123123123",
+      "id": 7
+    },
+    {
+      "email": "trungkien@gmail.com",
+      "password": "123123",
+      "fullName": "Trung Kiên",
+      "id": 8
+    },
+    {
+      "email": "Trungkien113@gmail.com",
+      "password": "123123",
+      "fullName": "Kien",
+      "id": 9
+    },
+    {
+      "email": "Trungkien1231@gmail.com",
+      "password": "123123",
+      "fullName": "kien",
+      "id": 10
+    },
+    {
+      "email": "123123",
+      "password": "12312",
+      "fullName": "123123",
+      "id": 11
+    },
+    {
+      "email": "Trungkien1123@gmail.com",
+      "password": "123123",
+      "fullName": "kien",
+      "id": 12
+    }
+  ],
+  "orders": [
+    {
+      "customer_name": "asd123123",
+      "customer_address": "Hồ Chí Minh City",
+      "customer_email": "Trungkien12@gmail.com",
+      "customer_phone_number": "0832597271",
+      "products": [
+        {
+          "productName": "Đèn bàn vintage",
+          "quantity": 1,
+          "price": "1599000",
+          "brandName": "Rétro Chic",
+          "image": "https://violighting.com.vn/dentrangtri/uploads/2021/11/den-ban-hinh-cay-nam-den-db-634.jpg"
+        }
+      ],
+      "status": "Đã xác nhận",
+      "id": 13
+    },
+    {
+      "customer_name": "Trung Kien ",
+      "customer_address": "Hồ Chí Minh City",
+      "customer_email": "Trungkien12@gmail.com",
+      "customer_phone_number": "0832597271",
+      "products": [
+        {
+          "productName": "Phụ kiện thang trượt",
+          "quantity": 1,
+          "price": "899000",
+          "brandName": "Nội thất Minh Long",
+          "image": "https://flexhouse.vn/wp-content/uploads/2023/11/Phu-kien-thang-truot-barn-door-hop-kim-nhom-SH7306-1.jpg"
+        },
+        {
+          "productName": "Đèn bàn vintage",
+          "quantity": 1,
+          "price": "1599000",
+          "brandName": "Rétro Chic",
+          "image": "https://violighting.com.vn/dentrangtri/uploads/2021/11/den-ban-hinh-cay-nam-den-db-634.jpg"
+        }
+      ],
+      "status": "Đã giao hàng",
+      "id": 14
+    },
+    {
+      "customer_name": "Trung Kien 213123213",
+      "customer_address": "Hồ Chí Minh City",
+      "customer_email": "Trungkien1123122@gmail.com",
+      "customer_phone_number": "0832597271",
+      "products": [
+        {
+          "productName": "Đèn treo phòng khách",
+          "quantity": 1,
+          "price": "1799000",
+          "brandName": "Nghệ thuật Ánh sáng",
+          "image": "https://mvm.vn/wp-content/uploads/2019/10/Den-trang-tri-TT6-v.gif"
+        }
+      ],
+      "status": "Đã giao hàng",
+      "id": 15
+    },
+    {
+      "customer_name": "Trung Kien 213123213",
+      "customer_address": "Hồ Chí Minh City",
+      "customer_email": "Trungkien1123122@gmail.com",
+      "customer_phone_number": "0832597271",
+      "createdAt": "2024-02-21T09:00:56.543Z",
+      "products": [
+        {
+          "productName": "Phụ kiện thang trượt",
+          "quantity": 1,
+          "price": "899000",
+          "brandName": "Nội thất Minh Long",
+          "image": "https://flexhouse.vn/wp-content/uploads/2023/11/Phu-kien-thang-truot-barn-door-hop-kim-nhom-SH7306-1.jpg"
+        },
+        {
+          "productName": "Bàn làm việc gỗ cao cấp",
+          "quantity": 1,
+          "price": "4990000",
+          "brandName": "Nội Thất Minh Long",
+          "image": "https://product.hstatic.net/200000539781/product/2-min_9f6a75a7be334985a8e3601842ebc808.png"
+        },
+        {
+          "productName": "Bàn ăn gia đình hiện đại",
+          "quantity": 1,
+          "price": "6500000",
+          "brandName": "Nội Thất Đức Việt",
+          "image": "https://kika.vn/wp-content/uploads/2023/03/ban-an-BA208.jpg"
+        }
+      ],
+      "status": "Đang chờ xử lý",
+      "id": 16
+    },
+    {
+      "customer_name": "Trung Kien Chư Sê",
+      "customer_address": "Hồ Chí Minh City",
+      "customer_email": "Trungkien1123122@gmail.com",
+      "customer_phone_number": "0832597271",
+      "createdAt": "2/21/2024, 4:13:20 PM",
+      "products": [
+        {
+          "productName": "Gối trang trí họa tiết hoa",
+          "quantity": 1,
+          "price": "123",
+          "brandName": "Home Decor Co.",
+          "image": "https://flexhouse.vn/wp-content/uploads/2023/03/Vo-goi-tua-trang-tri-hoa-tiet-hoat-hinh-PCH3352-7.jpg"
+        },
+        {
+          "productName": "Gối trang trí họa tiết nghệ thuật",
+          "quantity": 1,
+          "price": "480000",
+          "brandName": "Artistic Decor",
+          "image": "https://www.lamaisonchouette.com/wp-content/uploads/2022/01/CUSH45%E2%80%93LIN-RED_B.jpeg"
+        }
+      ],
+      "status": "Đang chờ xử lý",
+      "id": 17
+    },
+    {
+      "customer_name": "Trung Kien HCM",
+      "customer_address": "Hồ Chí Minh City",
+      "customer_email": "Trungkien1123122@gmail.com",
+      "customer_phone_number": "0832597271",
+      "createdAt": "2/21/2024, 9:39:24 PM",
+      "products": [
+        {
+          "productName": "Đèn bàn vintage",
+          "quantity": 1,
+          "price": "1599000",
+          "brandName": "Rétro Chic",
+          "image": "https://violighting.com.vn/dentrangtri/uploads/2021/11/den-ban-hinh-cay-nam-den-db-634.jpg"
+        },
+        {
+          "productName": "Ghế văn phòng Ergonomic",
+          "quantity": 1,
+          "price": "1299000",
+          "brandName": "Ergo Comfort",
+          "image": "https://sg-live-01.slatic.net/p/0657210566aaa16fe046096f74899f61.jpg_525x525q80.jpg"
+        },
+        {
+          "productName": "Sofa góc phòng khách",
+          "quantity": 1,
+          "price": "2199000",
+          "brandName": "Phòng Khách Đẹp",
+          "image": "https://bearsofa.com/wp-content/uploads/mau-ghe-sofa-goc-L-phong-khach-dep-BearSofa-Mau-01-800x800.jpg.webp"
+        }
+      ],
+      "status": "Đang chờ xử lý",
+      "id": 18
+    },
+    {
+      "customer_name": "Trung Kien HCM123",
+      "customer_address": "Hồ Chí Minh City",
+      "customer_email": "Trungkien1123122@gmail.com",
+      "customer_phone_number": "0832597271",
+      "createdAt": "2/22/2024, 10:01:01 AM",
+      "products": [
+        {
+          "productName": "Tranh phong mã",
+          "quantity": 1,
+          "price": "8299000",
+          "brandName": "Tranh Kiên",
+          "image": "https://walldeco.vn/wp-content/uploads/2021/08/SNO-24513.jpg"
+        },
+        {
+          "productName": "Kệ sách đa năng",
+          "quantity": 4,
+          "price": "1499000",
+          "brandName": "SmartStorage",
+          "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/431/426/products/ke-sach-chu-u-lon-1.jpg?v=1661937546160"
+        }
+      ],
+      "status": "Đang chờ xử lý",
+      "id": 19
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

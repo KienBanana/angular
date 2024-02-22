@@ -1,0 +1,127 @@
+<!-- Banner -->
+
+
+<!-- Dashboard -->
+<div class="d-flex flex-column flex-lg-row h-lg-full bg-surface-secondary border-t-2">
+    <!-- Vertical Navbar -->
+    <app-admin-left></app-admin-left>
+    <!-- Main content -->
+    <div class="h-screen flex-grow-1 overflow-y-lg-auto">
+   
+        <div class="card shadow border-0 mb-7">
+            <div>
+                <h1>Add Product</h1>
+                <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Tên sản phẩm</label>
+                            <input type="text" class="form-control" id="inputEmail4" formControlName="productName">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Tên hãng sản phẩm </label>
+                            <input type="text" class="form-control" id="inputPassword4" formControlName="brandName">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Giá</label>
+                        <input type="text" class="form-control" id="inputAddress" formControlName="price">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Mô tả sản phẩm</label>
+                        <input type="text" class="form-control" id="inputAddress2" formControlName="description">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">Views</label>
+                            <input type="text" class="form-control" id="inputCity" formControlName="views">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">Hot</label>
+                            <input type="number" class="form-control" id="inputCity" formControlName="hot">
+
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">Loại sản phẩm </label>
+                            <input type="number" class="form-control" id="inputCity" formControlName="categoryId">
+
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputZip">Ảnh</label>
+                            <input type="text" class="form-control" id="inputZip" formControlName="image">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Thêm sản phẩm</button>
+                    <button type="submit" class="btn btn-primary">Cập Nhập sản phẩm</button>
+                </form>
+
+
+
+            </div>
+            <div class="card-header">
+                <h5 class="mb-0">All Product</h5>
+
+            </div>
+            <div class="table-responsive">
+                <table class="table table-hover table-nowrap">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col">Tên sản phẩm</th>
+                            <th scope="col">Ngày nhập hàng</th>
+                            <th scope="col">Loại hàng</th>
+                            <th scope="col">Giá</th>
+                            <th scope="col">Mô tả sản phẩm</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr
+                            *ngFor="let item of listFilteredProducts  | paginate: { itemsPerPage: pageSize, currentPage: pageNum, totalItems: total}">
+                            <td>
+                                <img src="{{item.image}}">
+                                <a class="text-heading font-semibold" href="#">
+                                    {{item.name}}
+                                </a>
+                            </td>
+                            <td>
+                                {{item.date}}
+                            </td>
+                            <td>
+
+                                <a class="text-heading font-semibold" href="#">
+                                    {{item.brandName}}
+                                </a>
+                            </td>
+                            <td>
+                                {{item.price}}
+                            </td>
+                            <td>
+                                <span class="badge badge-lg badge-dot">
+                                    <i class="bg-success"></i>{{item.description}}
+                                </span>
+                            </td>
+                            <td class="text-end">
+                                <a href="#" class="btn btn-sm btn-neutral" (click)="editProduct(item.id)">Edit</a>
+                                <a class="btn btn-sm btn-square btn-neutral text-danger-hover"
+                                    (click)="removeProductById(item.id)">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-footer border-0 py-5">
+                <span class="text-muted text-sm">Showing 10 items out of 250 results found</span>
+            </div>
+        </div>
+    </div>
+</div>

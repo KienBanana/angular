@@ -1,0 +1,112 @@
+<div class="d-flex flex-column flex-lg-row h-lg-full bg-surface-secondary border-t-2">
+
+    <app-admin-left></app-admin-left>
+
+
+    <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+
+        <h1>Tất cả đơn hàng</h1>
+        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <tr class="">
+                    <th scope="col" class="px-3 py-3">
+                        Id
+                    </th>
+                    <th scope="col" class="px-3 py-3">
+                        Tên khách hàng
+                    </th>
+                    <th scope="col" class="px-3 py-3">
+                        Tên sản phẩm
+                    </th>
+                    <th scope="col" class="px-3 py-3 w-[100px]">
+                        Số lượng
+                    </th>
+                    <th scope="col" class="px-3 py-3">
+                        Giá tiền
+                    </th>
+                    <th scope="col" class="px-3 py-3">
+                        Địa điểm
+                    </th>
+                    <th scope="col" class="px-3 py-3">
+                        Thời gian
+                    </th>
+
+                    <th scope="col" class="px-3 py-3">
+                        Tổng tiền
+                    </th>
+                    <th scope="col" class="px-3 py-3">
+                        Trạng thái
+                    </th>
+                    <th scope="col" class="px-3 py-3">
+                        Cập nhật
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+                    *ngFor="let order of orderItems; let i = index">
+                    <th scope="row" class="px-3 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        {{ order.id }}
+                    </th>
+                    <td class="px-3 py-3">
+                        <div class="flex flex-col">
+                            <span>{{ order.customer_name }}</span>
+                            <span class="text-red-500"> {{ order.status }}</span>
+                        </div>
+                    </td>
+                    <td class="px-3 py-3 ">
+                        <div class="flex gap-1 py-1" *ngFor="let product of order.products">
+                            <img class="w-[30px] " src="{{ product.image }}" alt="">
+                            <h4>{{ product.productName }} </h4>
+                        </div>
+                    </td>
+                    <td class="px-3 py-3">
+                        <div class="flex my-2 justify-center items-center" *ngFor="let product of order.products">
+                            <h4>{{product.quantity}}</h4>
+                        </div>
+                    </td>
+                    <td class="px-3 py-3">
+                        <div class="flex my-2 justify-center items-center" *ngFor="let product of order.products">
+                            <span class="text-red-500">{{product.price |
+                                currency:'VND'}}</span>
+                        </div>
+                    </td>
+                    <td class="px-3 py-3">
+                        {{order.customer_address}}
+                    </td>
+                    <td class="px-3 py-3">
+                        {{order.createdAt}}
+                    </td>
+
+                    <td class="px-3 py-3">
+                        {{calculateOrderTotal(order) |
+                        currency:'VND'}}
+                    </td>
+                    <td class="px-3 py-3">
+                        <select id="countries"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            [(ngModel)]="selectedStatusList[i]" (ngModelChange)="onStatusChange($event)">
+                            <option value="Chờ xử lý">Chờ xử lý</option>
+                            <option value="Đã xác nhận">Đã xác nhận</option>
+                            <option value="Đang giao hàng">Đang giao hàng</option>
+                            <option value="Đã giao hàng">Đã giao hàng</option>
+                            <option value="Hủy bỏ">Hủy bỏ</option>
+                        </select>
+                    </td>
+                    <td class="px-3 py-3">
+                        <button style="
+                        padding: 0.5rem 1rem;
+                        border-radius: 2rem;
+                        background-color: thistle;
+                      " (click)="updateOrderStatus(order.id, selectedStatusList[i], i)">
+                            Cập nhật
+                        </button>
+                    </td>
+                </tr>
+
+
+            </tbody>
+        </table>
+    </div>
+
+</div>

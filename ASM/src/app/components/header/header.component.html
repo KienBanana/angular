@@ -1,0 +1,70 @@
+<header class="flex flex-col  px-[50px] w-full py-[33px] gap-[10px]">
+    <div class="flex justify-between">
+        <div class="flex gap-[5px]">
+            <img src="assets/image/Meubel House_Logos-05.png" alt="">
+            <img src="assets/image/SkinClinic.svg" alt="">
+
+        </div>
+        <div>
+            <ul class="flex gap-[75px]">
+                <li><a href="" routerLink="">Home</a></li>
+                <li><a href="" routerLink="/shop">Shop</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="" routerLink="/connect">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="flex gap-11">
+            <span class="cursor-pointer gap-2" *ngIf="user!==null" routerLink="/sign-in">{{user.fullName ||user.email}}
+                <button (click)="logOut()" class="bg-sky-500 hover:bg-sky-700 rounded-lg">Đăng
+                    xuất</button>
+            </span>
+            <span class="cursor-pointer" *ngIf="user==null"><img src="assets/image/mdi_account-alert-outline.svg" alt=""
+                    routerLink="/sign-in"></span>
+
+            <div routerLink="/cart" class="cursor-pointer relative ">
+                <img src="assets/image/ant-design_shopping-cart-outlined.svg" alt="" class="">
+                <div class="absolute bg-orange-300 w-[20px] h-[20px] top-[-5px] left-[65%] rounded-[50%] flex items-center justify-center text-[14px]"
+                    *ngIf="totalQuantity() > 0">{{totalQuantity()}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col justify-center items-center relative">
+
+        <form class="form w-[50%] flex flex-col ">
+            <label for="search">
+                <input type="text" class="input text-[#000]" required placeholder="Search products" id="search"
+                    [(ngModel)]="searchTerm" [ngModelOptions]="{standalone: true}" (input)="search()">
+
+                <div class="fancy-bg"></div>
+                <div class="search">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-4wgw6l r-f727ji r-bnwqim r-1plcrui r-lrvibr">
+                        <g>
+                            <path
+                                d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+
+            </label>
+
+        </form>
+        <div class="w-[50%] bg-[#FFFBEB] text-[#000] h-auto absolute top-[92%] z-10 mt-1">
+            <div *ngIf="showSearchResults && searchResults.length > 0">
+                <ul class="w-auto cursor-pointer ">
+                    <li *ngFor="let result of searchResults" class="flex p-2 gap-2 hover:bg-[#F5EEE6]"
+                        (click)="navigateToProductDetail(result.id)">
+
+                        <img src="{{result.image}}" alt="" class="w-[60px] h-[60px]">
+                        <div>
+                            <h1>Tên sản phẩm: {{ result.productName }}</h1>
+                            <span>Giá: {{ result.price }}</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>

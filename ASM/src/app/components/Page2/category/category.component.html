@@ -1,0 +1,7 @@
+<div class="bg-[#F9F1E7] w-full h-[100px] flex items-center justify-center">
+    <div class="w-[86%] flex justify-around items-center" *ngFor="let item of listCategory">
+        <ul>
+            <li><a routerLink="/category/{{item.id}}">{{item.categoryName | uppercase}}</a></li>
+        </ul>
+    </div>
+</div>

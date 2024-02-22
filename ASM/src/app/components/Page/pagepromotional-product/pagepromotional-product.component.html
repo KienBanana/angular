@@ -1,0 +1,29 @@
+<div class="flex justify-center flex-col items-center pb-[48px]">
+    <h1 class="text-[#3a3a3a] text-[40px] font-bold leading-[120%] pb-8">Promotional Products</h1>
+    <div class="grid gap-x-8 gap-y-4 grid-cols-4 ">
+        <div *ngFor="let item of listProducts" class="w-[285px]">
+            <a class="bg-[#F4F5F7]" [routerLink]="['/shop/product-detail', item.id]"><img src="{{item.image}}" alt=""
+                    class="w-[285px] h-[301px] object-contain bg-[#F4F5F7]"></a>
+            <div class="px-4 bg-[#F4F5F7]">
+                <p class="text-[#3A3A3A] text-[24px] font-semibold leading-[120%] pt-4 ">
+                    {{item.productName}}</p>
+                <span class="text-[#898989] font-medium leading-[150%]">{{item.brandName}}</span>
+                <div class="flex justify-between py-2 items-center">
+                    <span
+                        class="text-[#3A3A3A] text-[20px] font-semibold leading-[120%]pb-[30px]">{{item.price|number:'1.0-0':'fr'
+                        }} VNĐ</span>
+                    <button class="bg-[#FF9843] p-3 rounded-lg" (click)="addToCart(item)" type="button"><img src="assets/image/cart-outline.svg" alt=""
+                            class="w-7 "></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <diV class="border-2 border-orange-300 px-16 py-4 mt-8
+    ">
+        <button class="text-[#B88E2F] font-semibold">
+            Show More
+        </button>
+    </diV>
+
+
+</div>
